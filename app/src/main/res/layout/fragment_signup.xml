@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/college_fountain"
+    android:backgroundTint="#99000000"
+    android:backgroundTintMode="src_over"
+    tools:context=".ui.fragments.body.SignupFragment"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="37dp">
+
+    <EditText
+        android:id="@+id/signup_name_text"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:autofillHints="name"
+        android:background="@color/white"
+        android:hint="@string/text_name"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.21" />
+
+    <EditText
+        android:id="@+id/signup_phone_text"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:autofillHints="phone"
+        android:background="@color/white"
+        android:hint="@string/text_phone"
+        android:inputType="phone"
+        android:minHeight="48dp"
+
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.31" />
+
+    <EditText
+        android:id="@+id/signup_email_text"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:autofillHints="emailAddress"
+        android:background="@color/white"
+        android:hint="@string/text_mail"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.41" />
+
+    <EditText
+        android:id="@+id/signup_password_text"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:autofillHints="password"
+        android:background="@color/white"
+        android:hint="@string/text_pass"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.51" />
+
+    <android.widget.Button
+        android:id="@+id/button2"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_button_red_dark"
+        android:text="@string/btn_sign"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.66" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
